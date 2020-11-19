@@ -165,7 +165,7 @@ export default {
           'session': 'qwqeqeq'
         },
       }).then(function (response) {
-        console.log(response.data);
+        // console.log(response.data);
         if (response.data.content.length) {
           that.tableHeight = ''
           that.fileName = response.data.filename
